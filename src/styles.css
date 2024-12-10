@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+
+    background-image: url("./cloud.jpg");
+    background-size: cover;
+    
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.data-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.bottom-cards
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px ;
+}
+
+
+
+.card
+{
+    height: 150px;
+    width: 200px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+#day-0
+{
+    height: 250px;
+    width: 350px;
+}

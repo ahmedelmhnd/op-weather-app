@@ -1,5 +1,10 @@
-const cat = "cat";
+import "./styles.css"
+import setupSearchButton from "./buttons";
+import { getData } from "./communication";
+import display from "./dom";
 
-for (let index = 0; index < 10; index++) {
-  console.log(cat);
-}
+
+setupSearchButton();
+
+
+
